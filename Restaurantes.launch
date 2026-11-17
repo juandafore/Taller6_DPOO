@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+    <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+        <listEntry value="/Taller Swing Restaurantes Esqueleto/src/uniandes/dpoo/swing/interfaz/principal/VentanaPrincipal.java"/>
+    </listAttribute>
+    <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+        <listEntry value="1"/>
+    </listAttribute>
+    <listAttribute key="org.eclipse.debug.ui.favoriteGroups">
+        <listEntry value="org.eclipse.debug.ui.launchGroup.run"/>
+    </listAttribute>
+    <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="uniandes.dpoo.swing.interfaz.principal.VentanaPrincipal"/>
+    <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="Taller Swing Restaurantes Esqueleto"/>
+    <stringAttribute key="org.eclipse.jdt.launching.WORKING_DIRECTORY" value="${workspace_loc:Taller Swing Restaurantes Esqueleto}"/>
+</launchConfiguration>

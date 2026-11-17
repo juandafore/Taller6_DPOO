@@ -1,0 +1,218 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="3516" height="1073" viewBox="0 0 3516 1073" font-family="Menlo, monospace" font-size="13">
+<defs>
+<marker id="tri" viewBox="0 0 20 20" refX="19" refY="10" markerWidth="18" markerHeight="18" orient="auto" markerUnits="userSpaceOnUse"><path d="M1,1 L19,10 L1,19 z" fill="white" stroke="#333" stroke-width="1.5"/></marker>
+<marker id="open" viewBox="0 0 20 20" refX="19" refY="10" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse"><path d="M1,2 L19,10 L1,18" fill="none" stroke="#333" stroke-width="2"/></marker>
+<marker id="openS" viewBox="0 0 20 20" refX="1" refY="10" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse"><path d="M19,2 L1,10 L19,18" fill="none" stroke="#333" stroke-width="2"/></marker>
+</defs>
+<rect width="3516" height="1073" fill="white"/>
+<text x="20" y="30" font-size="20" font-weight="bold">Taller 6 – Diagrama de clases (Restaurantes, Swing + Java2D)</text>
+<polyline points="1116.0,110.0 2892.0,110.0" fill="none" stroke="#333" stroke-width="1.4"/>
+<polyline points="1116.0,150.0 1116.0,110.0" fill="none" stroke="#333" stroke-width="1.4"/>
+<polyline points="2060.0,150.0 2060.0,110.0" fill="none" stroke="#333" stroke-width="1.4"/>
+<polyline points="2892.0,150.0 2892.0,110.0" fill="none" stroke="#333" stroke-width="1.4"/>
+<polyline points="1758.0,110.0 1758.0,47.0" fill="none" stroke="#333" stroke-width="1.4" marker-end="url(#tri)"/>
+<polyline points="680.0,796.0 3312.0,796.0" fill="none" stroke="#333" stroke-width="1.4"/>
+<polyline points="680.0,722.0 680.0,796.0" fill="none" stroke="#333" stroke-width="1.4"/>
+<polyline points="1080.0,722.0 1080.0,796.0" fill="none" stroke="#333" stroke-width="1.4"/>
+<polyline points="1516.0,722.0 1516.0,796.0" fill="none" stroke="#333" stroke-width="1.4"/>
+<polyline points="2060.0,688.0 2060.0,796.0" fill="none" stroke="#333" stroke-width="1.4"/>
+<polyline points="2488.0,722.0 2488.0,796.0" fill="none" stroke="#333" stroke-width="1.4"/>
+<polyline points="2908.0,722.0 2908.0,796.0" fill="none" stroke="#333" stroke-width="1.4"/>
+<polyline points="3312.0,756.0 3312.0,796.0" fill="none" stroke="#333" stroke-width="1.4"/>
+<polyline points="1114.0,796.0 1114.0,906.0" fill="none" stroke="#333" stroke-width="1.4" marker-end="url(#tri)"/>
+<polyline points="584.0,722.0 584.0,826.0 1913.0,826.0 1913.0,906.0" fill="none" stroke="#333" stroke-width="1.4" stroke-dasharray="7,5" marker-end="url(#tri)"/>
+<polyline points="2776.0,722.0 2776.0,826.0 1913.0,826.0 1913.0,906.0" fill="none" stroke="#333" stroke-width="1.4" stroke-dasharray="7,5" marker-end="url(#tri)"/>
+<polyline points="1220.0,722.0 1220.0,856.0 2490.0,856.0 2490.0,906.0" fill="none" stroke="#333" stroke-width="1.4" stroke-dasharray="7,5" marker-end="url(#tri)"/>
+<polyline points="3398.4,756.0 3398.4,856.0 3103.0,856.0 3103.0,906.0" fill="none" stroke="#333" stroke-width="1.4" stroke-dasharray="7,5" marker-end="url(#tri)"/>
+<polyline points="2230.8,329.0 2230.8,535.0 2278.0,535.0 2278.0,826.0 1913.0,826.0" fill="none" stroke="#333" stroke-width="1.4" stroke-dasharray="7,5"/>
+<polyline points="945.2,431.0 945.2,495.5 680.0,495.5 680.0,560.0" fill="none" stroke="#333" stroke-width="1.4" marker-end="url(#open)" marker-start="url(#openS)"/>
+<text x="686.0" y="552" font-size="12" fill="#1a4fa0">pBotones  [1]</text>
+<polyline points="1080.0,431.0 1080.0,560.0" fill="none" stroke="#333" stroke-width="1.4" marker-end="url(#open)" marker-start="url(#openS)"/>
+<text x="1086.0" y="552" font-size="12" fill="#1a4fa0">pLista  [1]</text>
+<polyline points="1286.8,431.0 1286.8,495.5 1516.0,495.5 1516.0,560.0" fill="none" stroke="#333" stroke-width="1.4" marker-end="url(#open)"/>
+<text x="1522.0" y="552" font-size="12" fill="#1a4fa0">pDetalles  [1]</text>
+<polyline points="2060.0,329.0 2060.0,560.0" fill="none" stroke="#333" stroke-width="1.4" marker-end="url(#open)"/>
+<text x="2066.0" y="552" font-size="12" fill="#1a4fa0">panelMapa  [1]</text>
+<polyline points="2746.4,312.0 2746.4,436.0 2488.0,436.0 2488.0,560.0" fill="none" stroke="#333" stroke-width="1.4" marker-end="url(#open)"/>
+<text x="2494.0" y="552" font-size="12" fill="#1a4fa0">panelDetalles  [1]</text>
+<polyline points="2908.0,312.0 2908.0,560.0" fill="none" stroke="#333" stroke-width="1.4" marker-end="url(#open)" marker-start="url(#openS)"/>
+<text x="2914.0" y="552" font-size="12" fill="#1a4fa0">panelBotones  [1]</text>
+<polyline points="3037.6,312.0 3037.6,436.0 3312.0,436.0 3312.0,560.0" fill="none" stroke="#333" stroke-width="1.4" marker-end="url(#open)"/>
+<text x="3318.0" y="552" font-size="12" fill="#1a4fa0">panelMapa  [1]</text>
+<polyline points="1360.0,234.3 1816.0,234.3" fill="none" stroke="#333" stroke-width="1.4" marker-end="url(#open)" marker-start="url(#openS)"/>
+<text x="1588.0" y="226.3" font-size="12" fill="#1a4fa0">ventanaMapa / ventanaPrincipal  [0..1]</text>
+<polyline points="1262.4,150.0 1262.4,132.0 2808.8,132.0 2808.8,150.0" fill="none" stroke="#333" stroke-width="1.4" marker-end="url(#open)" marker-start="url(#openS)"/>
+<text x="2035.6000000000001" y="126" font-size="12" fill="#1a4fa0">ventanaAgregar / ventanaPrincipal  [0..1]</text>
+<polyline points="872.0,220.2 528.0,220.2" fill="none" stroke="#333" stroke-width="1.4" marker-end="url(#open)"/>
+<text x="700.0" y="212.25" font-size="12" fill="#1a4fa0">mundo  [1]</text>
+<polyline points="186.4,261.0 186.4,560.0" fill="none" stroke="#333" stroke-width="1.4" marker-end="url(#open)"/>
+<text x="194.4" y="552" font-size="12" fill="#1a4fa0">restaurantes  [*]</text>
+<polyline points="960.0,560.0 960.0,520.0 364.0,520.0 364.0,560.0" fill="none" stroke="#333" stroke-width="1.4" marker-end="url(#open)"/>
+<text x="372.0" y="552" font-size="12" fill="#1a4fa0">listaDeRestaurantes  [*]</text>
+<polyline points="2177.6,688.0 2177.6,886.0 299.2,886.0 299.2,807.0" fill="none" stroke="#333" stroke-width="1.4" marker-end="url(#open)"/>
+<text x="307.2" y="825" font-size="12" fill="#1a4fa0">restaurantes  [*]</text>
+<polyline points="1398.4,722.0 1398.4,906.0 169.6,906.0 169.6,807.0" fill="none" stroke="#333" stroke-width="1.4" stroke-dasharray="7,5" marker-end="url(#open)"/>
+<text x="177.6" y="900" font-size="12" fill="#1a4fa0">«use»</text>
+<rect x="1698" y="20" width="120" height="27" fill="#f2f2f2" stroke="#333" stroke-width="1.3"/>
+<text x="1758.0" y="37" text-anchor="middle" font-weight="bold" >JFrame</text>
+<rect x="1054" y="906" width="120" height="27" fill="#f2f2f2" stroke="#333" stroke-width="1.3"/>
+<text x="1114.0" y="923" text-anchor="middle" font-weight="bold" >JPanel</text>
+<rect x="1828" y="906" width="170" height="44" fill="#f2f2f2" stroke="#333" stroke-width="1.3"/>
+<text x="1913.0" y="923" text-anchor="middle" font-style="italic">«interface»</text>
+<text x="1913.0" y="940" text-anchor="middle" font-weight="bold" font-style="italic">ActionListener</text>
+<rect x="2390" y="906" width="200" height="44" fill="#f2f2f2" stroke="#333" stroke-width="1.3"/>
+<text x="2490.0" y="923" text-anchor="middle" font-style="italic">«interface»</text>
+<text x="2490.0" y="940" text-anchor="middle" font-weight="bold" font-style="italic">ListSelectionListener</text>
+<rect x="3023" y="906" width="160" height="44" fill="#f2f2f2" stroke="#333" stroke-width="1.3"/>
+<text x="3103.0" y="923" text-anchor="middle" font-style="italic">«interface»</text>
+<text x="3103.0" y="940" text-anchor="middle" font-weight="bold" font-style="italic">MouseListener</text>
+<rect x="40" y="150" width="488" height="111" fill="#fff7e0" stroke="#333" stroke-width="1.3"/>
+<text x="284.0" y="167" text-anchor="middle" font-weight="bold" >Diario</text>
+<line x1="40" y1="177" x2="528" y2="177" stroke="#333"/>
+<text x="48" y="194">- restaurantes : List&lt;Restaurante&gt;</text>
+<line x1="40" y1="202" x2="528" y2="202" stroke="#333"/>
+<text x="48" y="219">+ Diario()</text>
+<text x="48" y="236">+ getRestaurantes(completos : boolean) : List&lt;Restaurante&gt;</text>
+<text x="48" y="253">+ agregarRestaurante(restaurante : Restaurante)</text>
+<rect x="40" y="560" width="432" height="247" fill="#fff7e0" stroke="#333" stroke-width="1.3"/>
+<text x="256.0" y="577" text-anchor="middle" font-weight="bold" >Restaurante</text>
+<line x1="40" y1="587" x2="472" y2="587" stroke="#333"/>
+<text x="48" y="604">- nombre : String</text>
+<text x="48" y="621">- calificacion : int</text>
+<text x="48" y="638">- coordenadaX : int</text>
+<text x="48" y="655">- coordenadaY : int</text>
+<text x="48" y="672">+ visitado : boolean</text>
+<line x1="40" y1="680" x2="472" y2="680" stroke="#333"/>
+<text x="48" y="697">+ Restaurante(nombre, calificacion, x, y, visitado)</text>
+<text x="48" y="714">+ getNombre() : String</text>
+<text x="48" y="731">+ getCalificacion() : int</text>
+<text x="48" y="748">+ getX() : int</text>
+<text x="48" y="765">+ getY() : int</text>
+<text x="48" y="782">+ isVisitado() : boolean</text>
+<text x="48" y="799">+ toString() : String</text>
+<rect x="520" y="560" width="320" height="162" fill="#e8f1ff" stroke="#333" stroke-width="1.3"/>
+<text x="680.0" y="577" text-anchor="middle" font-weight="bold" >PanelBotones</text>
+<line x1="520" y1="587" x2="840" y2="587" stroke="#333"/>
+<text x="528" y="604">- NUEVO : String = &quot;nuevo&quot;</text>
+<text x="528" y="621">- VER : String = &quot;ver&quot;</text>
+<text x="528" y="638">- butNuevo : JButton</text>
+<text x="528" y="655">- butVerTodos : JButton</text>
+<text x="528" y="672">- ventanaPrincipal : VentanaPrincipal</text>
+<line x1="520" y1="680" x2="840" y2="680" stroke="#333"/>
+<text x="528" y="697">+ PanelBotones(v : VentanaPrincipal)</text>
+<text x="528" y="714">+ actionPerformed(e : ActionEvent)</text>
+<rect x="880" y="560" width="400" height="162" fill="#e8f1ff" stroke="#333" stroke-width="1.3"/>
+<text x="1080.0" y="577" text-anchor="middle" font-weight="bold" >PanelLista</text>
+<line x1="880" y1="587" x2="1280" y2="587" stroke="#333"/>
+<text x="888" y="604">- listaDeRestaurantes : JList&lt;Restaurante&gt;</text>
+<text x="888" y="621">- dataModel : DefaultListModel&lt;Restaurante&gt;</text>
+<text x="888" y="638">- ventanaPrincipal : VentanaPrincipal</text>
+<line x1="880" y1="646" x2="1280" y2="646" stroke="#333"/>
+<text x="888" y="663">+ PanelLista(v : VentanaPrincipal)</text>
+<text x="888" y="680">+ actualizarRestaurantes(l : List&lt;Restaurante&gt;)</text>
+<text x="888" y="697">+ valueChanged(e : ListSelectionEvent)</text>
+<text x="888" y="714">+ seleccionarRestaurante(r : Restaurante)</text>
+<rect x="1320" y="560" width="392" height="162" fill="#e8f1ff" stroke="#333" stroke-width="1.3"/>
+<text x="1516.0" y="577" text-anchor="middle" font-weight="bold" >PanelDetallesRestaurante</text>
+<line x1="1320" y1="587" x2="1712" y2="587" stroke="#333"/>
+<text x="1328" y="604">- labNombre : JLabel</text>
+<text x="1328" y="621">- labCalificacion : JLabel</text>
+<text x="1328" y="638">- chkVisitado : JCheckBox</text>
+<line x1="1320" y1="646" x2="1712" y2="646" stroke="#333"/>
+<text x="1328" y="663">+ PanelDetallesRestaurante()</text>
+<text x="1328" y="680">- actualizarRestaurante(n, c, v)</text>
+<text x="1328" y="697">+ actualizarRestaurante(r : Restaurante)</text>
+<text x="1328" y="714">- buscarIconoCalificacion(c : int) : ImageIcon</text>
+<rect x="1892" y="560" width="336" height="128" fill="#eaf8ea" stroke="#333" stroke-width="1.3"/>
+<text x="2060.0" y="577" text-anchor="middle" font-weight="bold" >PanelMapaVisualizar</text>
+<line x1="1892" y1="587" x2="2228" y2="587" stroke="#333"/>
+<text x="1900" y="604">- labMapa : JLabel</text>
+<text x="1900" y="621">- restaurantes : List&lt;Restaurante&gt;</text>
+<line x1="1892" y1="629" x2="2228" y2="629" stroke="#333"/>
+<text x="1900" y="646">+ PanelMapaVisualizar()</text>
+<text x="1900" y="663">+ paint(g : Graphics)</text>
+<text x="1900" y="680">+ actualizarMapa(l : List&lt;Restaurante&gt;)</text>
+<rect x="2328" y="560" width="320" height="162" fill="#fbeaf3" stroke="#333" stroke-width="1.3"/>
+<text x="2488.0" y="577" text-anchor="middle" font-weight="bold" >PanelEditarRestaurante</text>
+<line x1="2328" y1="587" x2="2648" y2="587" stroke="#333"/>
+<text x="2336" y="604">- txtNombre : JTextField</text>
+<text x="2336" y="621">- cbbCalificacion : JComboBox&lt;String&gt;</text>
+<text x="2336" y="638">- cbbVisitado : JComboBox&lt;String&gt;</text>
+<line x1="2328" y1="646" x2="2648" y2="646" stroke="#333"/>
+<text x="2336" y="663">+ PanelEditarRestaurante()</text>
+<text x="2336" y="680">+ getVisitado() : boolean</text>
+<text x="2336" y="697">+ getCalificacion() : int</text>
+<text x="2336" y="714">+ getNombre() : String</text>
+<rect x="2688" y="560" width="440" height="162" fill="#fbeaf3" stroke="#333" stroke-width="1.3"/>
+<text x="2908.0" y="577" text-anchor="middle" font-weight="bold" >PanelBotonesAgregar</text>
+<line x1="2688" y1="587" x2="3128" y2="587" stroke="#333"/>
+<text x="2696" y="604">- CREAR : String = &quot;nuevo&quot;</text>
+<text x="2696" y="621">- CERRAR : String = &quot;ver&quot;</text>
+<text x="2696" y="638">- butNuevo : JButton</text>
+<text x="2696" y="655">- butCerrar : JButton</text>
+<text x="2696" y="672">- ventanaPrincipal : VentanaAgregarRestaurante</text>
+<line x1="2688" y1="680" x2="3128" y2="680" stroke="#333"/>
+<text x="2696" y="697">+ PanelBotonesAgregar(v : VentanaAgregarRestaurante)</text>
+<text x="2696" y="714">+ actionPerformed(e : ActionEvent)</text>
+<rect x="3168" y="560" width="288" height="196" fill="#fbeaf3" stroke="#333" stroke-width="1.3"/>
+<text x="3312.0" y="577" text-anchor="middle" font-weight="bold" >PanelMapaAgregar</text>
+<line x1="3168" y1="587" x2="3456" y2="587" stroke="#333"/>
+<text x="3176" y="604">- labMapa : JLabel</text>
+<text x="3176" y="621">- x : int</text>
+<text x="3176" y="638">- y : int</text>
+<line x1="3168" y1="646" x2="3456" y2="646" stroke="#333"/>
+<text x="3176" y="663">+ PanelMapaAgregar()</text>
+<text x="3176" y="680">+ getCoordenadas() : int[]</text>
+<text x="3176" y="697">+ paint(g : Graphics)</text>
+<text x="3176" y="714">+ mouseClicked(e : MouseEvent)</text>
+<text x="3176" y="731">+ mousePressed / mouseReleased(e)</text>
+<text x="3176" y="748">+ mouseEntered / mouseExited(e)</text>
+<rect x="872" y="150" width="488" height="281" fill="#e8f1ff" stroke="#333" stroke-width="1.3"/>
+<text x="1116.0" y="167" text-anchor="middle" font-weight="bold" >VentanaPrincipal</text>
+<line x1="872" y1="177" x2="1360" y2="177" stroke="#333"/>
+<text x="880" y="194">- mundo : Diario</text>
+<text x="880" y="211">- pBotones : PanelBotones</text>
+<text x="880" y="228">- pDetalles : PanelDetallesRestaurante</text>
+<text x="880" y="245">- pLista : PanelLista</text>
+<text x="880" y="262">- ventanaMapa : VentanaMapa</text>
+<text x="880" y="279">- ventanaAgregar : VentanaAgregarRestaurante</text>
+<line x1="872" y1="287" x2="1360" y2="287" stroke="#333"/>
+<text x="880" y="304">+ VentanaPrincipal(elDiario : Diario)</text>
+<text x="880" y="321">+ mostrarVetanaNuevoRestaurante()</text>
+<text x="880" y="338">+ mostrarVentanaMapa()</text>
+<text x="880" y="355">+ agregarRestaurante(nombre, calif, x, y, visitado)</text>
+<text x="880" y="372">+ getRestaurantes(completos : boolean) : List&lt;Restaurante&gt;</text>
+<text x="880" y="389">- actualizarRestaurantes()</text>
+<text x="880" y="406">+ cambiarRestauranteSeleccionado(r : Restaurante)</text>
+<text x="880" y="423">+ main(args : String[]) {static}</text>
+<rect x="1816" y="150" width="488" height="179" fill="#eaf8ea" stroke="#333" stroke-width="1.3"/>
+<text x="2060.0" y="167" text-anchor="middle" font-weight="bold" >VentanaMapa</text>
+<line x1="1816" y1="177" x2="2304" y2="177" stroke="#333"/>
+<text x="1824" y="194">- VISITADOS : String = &quot;VISITADOS&quot;</text>
+<text x="1824" y="211">- TODOS : String = &quot;TODOS&quot;</text>
+<text x="1824" y="228">- panelMapa : PanelMapaVisualizar</text>
+<text x="1824" y="245">- radioTodos : JRadioButton</text>
+<text x="1824" y="262">- radioVisitados : JRadioButton</text>
+<text x="1824" y="279">- ventanaPrincipal : VentanaPrincipal</text>
+<line x1="1816" y1="287" x2="2304" y2="287" stroke="#333"/>
+<text x="1824" y="304">+ VentanaMapa(v : VentanaPrincipal, l : List&lt;Restaurante&gt;)</text>
+<text x="1824" y="321">+ actionPerformed(e : ActionEvent)</text>
+<rect x="2684" y="150" width="416" height="162" fill="#fbeaf3" stroke="#333" stroke-width="1.3"/>
+<text x="2892.0" y="167" text-anchor="middle" font-weight="bold" >VentanaAgregarRestaurante</text>
+<line x1="2684" y1="177" x2="3100" y2="177" stroke="#333"/>
+<text x="2692" y="194">- panelDetalles : PanelEditarRestaurante</text>
+<text x="2692" y="211">- panelBotones : PanelBotonesAgregar</text>
+<text x="2692" y="228">- panelMapa : PanelMapaAgregar</text>
+<text x="2692" y="245">- ventanaPrincipal : VentanaPrincipal</text>
+<line x1="2684" y1="253" x2="3100" y2="253" stroke="#333"/>
+<text x="2692" y="270">+ VentanaAgregarRestaurante(p : VentanaPrincipal)</text>
+<text x="2692" y="287">+ agregarRestaurante()</text>
+<text x="2692" y="304">+ cerrarVentana()</text>
+<text x="20" y="1003" font-size="12" fill="#444">Leyenda: línea continua + triángulo = herencia (extends) · línea punteada + triángulo = implementa interfaz · flecha abierta = asociación navegable (doble flecha = bidireccional) · punteada + flecha abierta = dependencia</text>
+<text x="20" y="1021" font-size="12" fill="#444">JFrame, JPanel (javax.swing); ActionListener, MouseListener (java.awt.event); ListSelectionListener (javax.swing.event). Los atributos de tipo Swing (JButton, JLabel, JList…) se muestran como atributos de cada clase.</text>
+<rect x="20" y="1033" width="16" height="12" fill="#fff7e0" stroke="#333"/><text x="42" y="1044" font-size="12" fill="#444">uniandes.dpoo.swing.mundo</text>
+<rect x="257.5" y="1033" width="16" height="12" fill="#e8f1ff" stroke="#333"/><text x="279.5" y="1044" font-size="12" fill="#444">uniandes.dpoo.swing.interfaz.principal</text>
+<rect x="592.5" y="1033" width="16" height="12" fill="#eaf8ea" stroke="#333"/><text x="614.5" y="1044" font-size="12" fill="#444">uniandes.dpoo.swing.interfaz.mapa</text>
+<rect x="890.0" y="1033" width="16" height="12" fill="#fbeaf3" stroke="#333"/><text x="912.0" y="1044" font-size="12" fill="#444">uniandes.dpoo.swing.interfaz.agregar</text>
+<rect x="1210.0" y="1033" width="16" height="12" fill="#f2f2f2" stroke="#333"/><text x="1232.0" y="1044" font-size="12" fill="#444">Swing / AWT</text>
+</svg>
